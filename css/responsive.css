@@ -39,8 +39,10 @@
   }
 
   .slider_section {
-    padding-top: 45px;
-    padding-bottom: 120px;
+    min-height: 100vh;
+    max-height: 100vh;
+    /* padding-top: 45px; */
+    /* padding-bottom: 120px; */
   }
 
   .info_section .info_contact .link-box .img-box {
@@ -52,8 +54,8 @@
 @media (max-width: 767px) {
   .hero_area {
     background: none;
-    background-color: #1a2e35;
-    /* background: linear-gradient(to bottom, #1a2e35 40%, #1cbbb4 40%); */
+    background-color: #FF69B4;
+    /* background: linear-gradient(to bottom, #FF69B4 40%, #00FFC6 40%); */
   }
 
   .slider_section {
@@ -62,7 +64,10 @@
   }
 
   .slider_section .detail-box {
-    margin-bottom: 75px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .slider_section .detail-box .btn-box {
@@ -75,9 +80,8 @@
   }
 
   .slider_section .img-container .img-box {
-
-    padding: 45px 0;
-    background-color: #1cbbb4;
+    /* padding: 45px 0; */
+    background-color: #00FFC6;
   }
 
   .experience_section .img-box {
